@@ -6,13 +6,14 @@ Classification of Remote Sensing Image Scenes, which is submitted to TGRS.
 2. The code has been implemented based on that of CADA-VAE. The data can be available at link "链接：https://pan.baidu.com/s/1-0lZaggJCeHJtOto8V35pw 
 提取码：smhw". The data we have used for experiments are included, which can be seen in the folder of data.
 
-3.This code is the implementation of the paper with the link: https://arxiv.org/abs/2306.06066.  
+
+3. This code is the implementation of the paper with the link: https://arxiv.org/abs/2306.06066.  
 Please refer to the paper for better understanding our idea and the proposed method.
 
-4.We have also not found  the visual features of the remote sensing image scenes from Internet, so we reproduced the visual features by using the ResNet18. 
+4. We have also not found  the visual features of the remote sensing image scenes from Internet, so we reproduced the visual features by using the ResNet18. 
 These reproduced visual features are also uploaded.
 
-5.Moreover, we have found that there are significant differences in performance over different randomly seen/unseen data segments for these comparison methods. 
+5. Moreover, we have found that there are significant differences in performance over different randomly seen/unseen data segments for these comparison methods. 
 Thus, to ensure the fairness of the comparisons, we have first randomly selected five seen/unseen segments of the dataset. 
 And all the following comparisons of each method are based on these selected segments.  All these segment files are also uploaded and can be used for further experiments.
 
